@@ -10,36 +10,41 @@ This is a TypeScript monorepo project that contains multiple sub-packages. It us
 
 1. Clone the repository to your local machine:
 
-   \```bash
+   bash:
+   `
    git clone https://github.com/your-repo/ts-monorepo.git
    cd ts-monorepo
-   \```
+   `
 
 2. Install dependencies:
 
-   \```bash
+   bash:
+   `
    yarn install
-   \```
+   `
 
 3. Build all packages:
 
-   \```bash
+   bash:
+   `
    yarn build
-   \```
+   `
 
 ## Running `app1`
 
 1. Navigate to the `app1` directory:
 
-   \```bash
+   bash:
+   `
    cd packages/app1
-   \```
+   `
 
 2. Start the application:
 
-   \```bash
+   bash:
+   `
    yarn start
-   \```
+   `
 
 ## Directory Structure
 
@@ -59,10 +64,11 @@ Some useful scripts defined in the root `package.json`:
 
 If you encounter issues during the installation process, try cleaning the existing installation and reinstalling:
 
-\```bash
+bash:
+`
 rm -rf node_modules yarn.lock packages/*/node_modules
 yarn install
-\```
+`
 
 ### Issue: Build failed
 
