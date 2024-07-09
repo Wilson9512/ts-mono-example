@@ -1,0 +1,41 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#08360B",
+    "titleBar.activeBackground": "#0C4B0F",
+    "titleBar.activeForeground": "#F3FDF4"
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[javascript][javascriptreact][typescript][typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[i18n-ally.localesPaths]": ["src/i18n/config"],
+  "java.compile.nullAnalysis.mode": "disabled"
+}
