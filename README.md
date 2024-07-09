@@ -1,29 +1,5 @@
 這是一個 TypeScript monorepo 專案，包含多個子包。該專案使用 Yarn 4.x 作為包管理工具。
-
 This is a TypeScript monorepo project that contains multiple sub-packages. It uses Yarn 4.x as the package manager.
-
-結構圖示
-Project Structure
-\```
-ts-monorepo/
-  ├── package.json
-  ├── tsconfig.json
-  ├── packages/
-  │   ├── app1/
-  │   │   ├── package.json
-  │   │   ├── src/
-  │   ├── common/
-  │       ├── package.json
-  │       ├── src/
-  │   ├── web/
-  │       ├── package.json
-  │       ├── src/
-\```
-
-前置要求
-
-	•	Node.js (建議版本：16.x 或更新)
-	•	Yarn 4.x
 
 ## Prerequisites
 
