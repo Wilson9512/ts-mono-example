@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ts-monorepo/common": "^1.0.0",
     "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "@ts-monorepo/common": "^1.0.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -20,6 +20,6 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
-    "typescript": "^5"
+    "typescript": "5.0.4"
   }
 }

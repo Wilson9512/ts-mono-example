@@ -10,7 +10,7 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
 const config = {
   watchFolders: [
     path.resolve(__dirname, '../../node_modules'),
-    path.resolve(__dirname, '../../node_modules/@ts-monorepo/common'),
+    path.resolve(__dirname, '../../packages/common'),
   ],
 };
 

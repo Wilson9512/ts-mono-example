@@ -1,9 +1,10 @@
 .yarn/*
-!.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+.yarnrc.yml
+yarn.lock
 
 # Swap the comments on the following lines if you wish to use zero-installs
 # In that case, don't forget to run `yarn config set enableGlobalCache false`!
@@ -12,3 +13,6 @@
 #!.yarn/cache
 .pnp.*
 node_modules
+
+# packages
+packages/well-pay-rn
